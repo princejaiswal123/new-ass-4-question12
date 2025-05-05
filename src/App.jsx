@@ -13,28 +13,28 @@ import {
 const d = [
   {
        title: "Efficient Collaborating",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.",
+    text: "Lorem ipsum dolor sit ",
     name: "Jane Cooper",
     role: "CEO at ABC Corporation",
     avatar: "/avatar.jpg",
   },
   {
     title: "Intuitive Design",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.",
+    text: "Lorem ipsum dolor sit amet",
     name: "Jane Cooper",
     role: "CEO at ABC Corporation",
     avatar: "/avatar.jpg",
   },
   {
     title: "Mindblowing Service",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.",
+    text: "Lorem ipsum dolor sit amet",
     name: "Jane Cooper",
     role: "CEO at ABC Corporation",
     avatar: "/avatar.jpg",
   },
 ];
 
-export default function ResponsiveUI() {
+export default function Change() {
   return (
     <Box bg="gray.50" minH="100vh">
       <Flex
