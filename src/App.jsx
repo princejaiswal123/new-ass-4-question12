@@ -1,18 +1,18 @@
 import {
   Box,
   Flex,
-  Text,
-  Heading,
+    Text,
+    Heading,
   Avatar,
-  VStack,
-  Stack,
+     VStack,
+    Stack,
   Button,
-  Spacer,
+    Spacer,
 } from "@chakra-ui/react";
 
 const d = [
   {
-    title: "Efficient Collaborating",
+       title: "Efficient Collaborating",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.",
     name: "Jane Cooper",
     role: "CEO at ABC Corporation",
@@ -41,11 +41,11 @@ export default function ResponsiveUI() {
         as="nav"
         bg="white"
         px={6}
-        py={4}
+           py={4}
         shadow="md"
         align="center"
-        justify="space-between"
-      >
+             justify="space-between"
+      >  
         <Heading size="md">MyApp</Heading>
         <Spacer />
         <Button colorScheme="teal" size="sm">
@@ -56,7 +56,7 @@ export default function ResponsiveUI() {
       <Box p={6}>
         <VStack spacing={3} textAlign="center" mb={8}>
           <Heading size="lg">Our Clients Speak</Heading>
-          <Text color="gray.600">
+               <Text color="gray.600">
             We have been working with clients around the world
           </Text>
         </VStack>
@@ -70,7 +70,7 @@ export default function ResponsiveUI() {
           {d.map((t, i) => (
             <Box
               key={i}
-              bg="white"
+                 bg="white"
               p={5}
               rounded="md"
               shadow="sm"
